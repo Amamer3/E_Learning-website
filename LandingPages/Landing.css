@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,400;1,500;1,800;1,900&display=swap');
+
+
+.header-top {
+    background-color: #49BBBD;
+}
+
+.text-hold {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+
+.p-text {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.span-text {
+    color: #F48C06;
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text-box {
+    padding-top: 30%;
+}
+
+.join-btn {
+    border: none !important;
+    border-radius: 80px;
+    background: rgba(255, 255, 255, 0.30);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+
+
+.video-player {
+    color: aliceblue;
+    font-size: 36px;
+}
+
+.video-container {
+    display: flex;
+    color: #252641;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.success_text {
+    color: var(--half-dark-text-color, rgba(1, 5, 20, 0.80));
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.success_header {
+    color: var(--dark-text-color, #010514);
+
+
+    /* H2 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 62.4px */
+}
+
+.num-text {
+    background: var(--accent-gradient, linear-gradient(90deg, #136CB5 0%, #49BBBD 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 96px */
+}
+
+.number-frame {
+    display: flex;
+    justify-content: center;
+}
+
+.cloud_header {
+    color: #2F327D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 180%;
+    /* 64.8px */
+}
+
+.cloud_text {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #696984;
+    /* text-align: center; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    /* width: 837px; */
+    line-height: 180%;
+    /* 43.2px */
+}
+
+.span-cloud {
+    color: #00CBB8;
+}
+
+.cloudCotainer {
+    margin-top: 10%;
+}
+
+.online-header {
+
+    color: #2F327D;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.online-text {
+
+    color: #696984;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+}
+
+.online-card {
+    padding-top: 20%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    width: 350px;
+    height: 330px;
+    flex-shrink: 0;
+}
+
+.file_icon {
+    margin-left: 34%;
+    position: relative;
+    top: 30px;
+    background-color: #5B72EE;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.calendar_icon {
+    margin-left: 34%;
+    position: relative;
+    top: 30px;
+    background-color: #00CBB8;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.user_icon {
+    margin-left: 34%;
+    position: relative;
+    top: 30px;
+    background-color: #29B9E7;
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+}
+
+.totc_con{
+    margin-top: 10%;
+}
+.instructors{
+    margin-top: 3%;
+}
+
+.totc-haedr {
+    color: #2F327D;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%;
+
+}
+
+.totc-span {
+    color: #00CBB8;
+}
+
+.toct-text {
+    color: #696984;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 43.2px */
+    letter-spacing: 0.48px;
+}
+
+.instructors-con {
+    background-image: url("../assets/rectangle-23.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+
+}
+.online_instrutors{
+    background-image: url("../assets/pexels-anna-shvets-4226140.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+ 
+}
+.int-thing{
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    padding-left: 10%;
+    padding-top: 24%;
+}
+.text-for{
+    color: aliceblue;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.start-btn{
+    width: 233px;
+height: 70px;
+    background: none;
+    border-radius: 80px;
+border: 2px solid aliceblue;
+color: aliceblue;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.start-btn:hover{
+    background: rgba(35, 189, 238, 0.90);
+    color: aliceblue;
+    border: none;
+}
