@@ -1,117 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Landing.css">
-    <title>Landing Page</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css "
+    />
+    <link rel="stylesheet" href="Blog.css" />
 
-<body>
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="Landing.css" />
+    <title>Document</title>
+  </head>
 
-    <nav class="navbar navbar-expand-lg sticky-top shadow-lg bg-body-tertiary p-lg-0 ">
+  <body>
+    <header>
+      <!--navbar here -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary p-lg-0"
+      >
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="../assets/mainlogo.png" alt="img">
+            <img src="../assets/mainlogo.png" alt="img" />
           </a>
-          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse justify-content-end gap-4"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav nav-underline">
-                <li class="nav-item">
-                    <a class="nav-link" href="../LandingPages/Landing.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Careers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../LandingPages/Landing.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Course/Course.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
+              </li>
             </ul>
-            <a class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end" style="background-color: #f3705f;" href="../login/login.html">Register</a>
-         </div>
+            <a
+              class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
+              style="background-color: #f3705f"
+              href="../login/login.html"
+              >Register</a
+            >
+          </div>
         </div>
       </nav>
+    </header>
 
+    <section class="header-top">
+      <div class="top-things">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text-box">
+                <h4 class="text-hold">
+                  Studying <span class="span-text">Online</span> is now much
+                  easier
+                </h4>
+                <p class="p-text">
+                  TOTC is an interesting platform that will teach you in more an
+                  interactive way
+                </p>
 
-
-
-    <!---------------------------------------------Navbar-------------------------------->
-    <!-- <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white">
-            <div class="container-fluid">
-              <div class="nav-img">
-                <img src="../assets/mainlogo.png" alt="image">
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-evenly align-items-center" id="navbarNav">
-                <ul class="nav nav-underline">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                </ul>
-              </div>
-              <a class="text-decoration-none rounded-4 text-dark px-3 py-1" style="background-color: #f3705f;" href="../login/login.html">Register</a>
-            </div>
-          </nav>
-    </div> -->
-
-
-    <!---------------------------------------------Navbar Ends here------------------------> 
-    
-    <!-- ---------------------------------section ------------------------------------>
-    <section class="header-top" style="background-color: #49BBBD;">   
-
-
-        <div class="top-things">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-box   ">
-                            <h4 class="text-hold">Studying <span class="span-text">Online</span> is now much easier</h4>
-                            <p class="p-text">TOTC is an interesting platform that will teach you in more an interactive
-                                way</p>
-
-
-                            <div class=" d-flex gap-5 ">
-                                <div>
-                                    <button type="button" class="btn-lg rounded-pill  join-btn">Join for free</button>
-                                </div>
-                                <div class="video-container gap-3">
-                                    <i class="bi bi-play-circle-fill video-player" size></i>Watch how it
-                                    works
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="image-container">
-                            <img src="../assets/Group 453.png" class="img-fluid teenage-img" />
-                        </div>
-                    </div>
+                <div class="d-flex gap-5">
+                  <div>
+                    <button type="button" class="btn-lg rounded-pill join-btn">
+                      Join for free
+                    </button>
+                  </div>
+                  <div class="video-container gap-3">
+                    <i class="bi bi-play-circle-fill video-player" size></i>
+                    <p class="Watch-text">Watch how it works</p>
+                  </div>
                 </div>
+              </div>
             </div>
+
+            <div class="col-lg-6">
+              <div class="image-container">
+                <img
+                  src="../assets/Group 454.png"
+                  class="img-fluid teenage-img"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-
-
+      </div>
     </section>
 
     <!-- -----------------------------Section Ends------------------------------------------>
@@ -119,225 +120,611 @@
     <!-- Our Success  -->
 
     <section class="ourSuccess section mt-5">
-        <div class="container">
-            <div class="row   ">
-                <div class=" text-center">
-                    <h2 class="success_header">Our Success</h2>
-                </div>
-                <div class=" text-center">
-                    <p class="success_text"> Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae
-                        sollicitudin at nec <br /> nam et pharetra
-                        gravida. Adipiscing a quis ultrices eu ornare tristique vel nisl orci.</p>
-                </div>
-                <div class="  row number-frame mt-5">
-                    <div class="col-lg-2   text-center">
-                        <h3 class="num-text">15K+</h3>
-                        <p>Students</p>
-                    </div>
-                    <div class="col-lg-2 text-center">
-                        <h3 class="num-text">75%</h3>
-                        <p>Total Success</p>
-                    </div>
-                    <div class="col-lg-2 text-center">
-                        <h3 class="num-text">35</h3>
-                        <p>Main questions</p>
-                    </div>
-                    <div class="col-lg-2 text-center">
-                        <h2 class="num-text">26</h2>
-                        <p>chief experts</p>
-                    </div>
-                    <div class="col-lg-3 text-center">
-                        <h3 class="num-text">16</h3>
-                        <p>Years of experience</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h2 class="success_header">Our Success</h2>
+          </div>
+          <div class="text-center">
+            <p class="success_text">
+              Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae
+              sollicitudin at nec <br />
+              nam et pharetra gravida. Adipiscing a quis ultrices eu ornare
+              tristique vel nisl orci.
+            </p>
+          </div>
+          <div class="row number-frame mt-5">
+            <div class="col-lg-2 text-center">
+              <h3 class="num-text">15K+</h3>
+              <p>Students</p>
             </div>
+            <div class="col-lg-2 text-center">
+              <h3 class="num-text">75%</h3>
+              <p>Total Success</p>
+            </div>
+            <div class="col-lg-2 text-center">
+              <h3 class="num-text">35</h3>
+              <p>Main questions</p>
+            </div>
+            <div class="col-lg-2 text-center">
+              <h2 class="num-text">26</h2>
+              <p>chief experts</p>
+            </div>
+            <div class="col-lg-3 text-center">
+              <h3 class="num-text">16</h3>
+              <p>Years of experience</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Our Success ends  -->
 
-
-
     <!-- cloud  Software -->
-    <section class="cloudCotainer ">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                    <h4 class="cloud_header">All-In-one <span class="span-cloud">Cloud SoftWare</span></h4>
-                </div>
-                <div class="text-center">
-                    <p class="cloud_text">
-                        TOTC is one powerful online software suite that combines all the tools <br /> needed to run a
-                        successful school or office.
-                    </p>
-                </div>
-            </div>
-            <div class="  row Crad-cloud mt-5">
-
-                <div class="col-lg-4">
-                    <div class="file_icon">
-                        <i class="bi bi-filetype-doc"></i>
-                    </div>
-                    <div class="online-card">
-
-                        <div class="text-online">
-                            <h1 class="online-header">Online Billing, <br> Invoicing, & Contracts</h1>
-                            <p class="online-text mt-4">Simple and secure control of your organization’s financial and
-                                legal transactions. Send
-                                customized invoices and contracts</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="calendar_icon">
-                        <i class="bi bi-calendar-plus-fill"></i>
-                    </div>
-                    <div class="online-card">
-
-                        <div class="text-online">
-                            <h1 class="online-header">Easy Scheduling & Attendance Tracking</h1>
-                            <p class="online-text">Schedule and reserve classrooms at one campus or multiple
-                                campuses. Keep detailed records of student attendance</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="user_icon">
-                        <i class="bi bi-people-fill"></i>
-                    </div>
-                    <div class="online-card">
-
-                        <div class="text-online">
-                            <h1 class="online-header">Customer Tracking</h1>
-                            <p class="online-text mt-4">Automate and track emails to individuals or groups. Skilline’s
-                                built-in system helps organize your organization </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="cloudCotainer">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h4 class="cloud_header">
+              All-In-one <span class="span-cloud">Cloud SoftWare</span>
+            </h4>
+          </div>
+          <div class="text-center">
+            <p class="cloud_text">
+              TOTC is one powerful online software suite that combines all the
+              tools <br />
+              needed to run a successful school or office.
+            </p>
+          </div>
         </div>
-
-
-    </section>
-    <section class="totc_con">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                    <h3 class="totc-haedr">What is <span class="totc-span">TOTC? </span></h3>
-                </div>
-                <div class="text-center">
-                    <p class="toct-text">TOTC is a platform that allows educators to create online classes whereby they can <br> store the
-                        course materials online; manage assignments, quizzes and exams; monitor <br> due dates; grade results
-                        and provide students with feedback all in one place.</p>
-                </div>
+        <div class="row Crad-cloud mt-5">
+          <div class="col-lg-4">
+            <div class="file_icon">
+              <i class="bi bi-filetype-doc"></i>
             </div>
-            <div class="row  instructors ">
-                <div class="col-lg-6">
-                    <div class="instructors-con">
-                    <div class="int-thing">
-                        <h3 class="text-for">FOR INSTRUCTORS</h3>
-                        <button class=" rounded-pill  start-btn">Start a class today</button>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="online_instrutors">
-                        <div class="int-thing">
-                            <h3 class="text-for">FOR STUDENTS</h3>
-                            <button class=" rounded-pill  start-btn">Enter access code</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<section>
-    
-</section>
-
-
-
-
-
-
-
- <!---------------------------------------- place footer here --------------------------------------------->
-
-
- <footer class="text-center text-lg-start align-content-center pt-5 p-0 m-0 mb-0">
-    
-    
-    <p class="single text-center text-white" style="font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif, Times New Roman;">
-      <strong>Sign Up for Our New Courses Updates.</strong>
-    </p>
-  
-    <div class="container">
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-            
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-md-5 col-12" style="background-color: none;">
-              <!-- Email input -->
-              <div class="form-outline mb-4">
-                <input type="email" placeholder="Email Address" id="form5Example2" class="form-control" />
+            <div class="online-card">
+              <div class="text-online">
+                <h1 class="online-header">
+                  Online Billing, <br />
+                  Invoicing, & Contracts
+                </h1>
+                <p class="online-text mt-4">
+                  Simple and secure control of your organization’s financial and
+                  legal transactions. Send customized invoices and contracts
+                </p>
               </div>
             </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-auto">
-  
-              <!-- Submit button -->
-              <button type="submit" class="btn mb-4 shadow-sm" style="background-color: #49bbbd; ">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
           </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- End Section: Form -->
-    </div>
-  
-    <div class="info text-center mb-3 text-decoration-none text-muted">
-      <a href="#">Careers |</a>
-      <a href="#">Privacy Policy |</a>
-      <a href="#">Teams & Conditions</a>
-    </div>
-  
-    <!-- Copyright -->
-    <div class="text-center p-3 text-muted" style="background-color: rgba(122, 69, 69, 0.2)">
-      © 2023 Copyright:
-      <a class=" text-decoration-none" href="https://africadigitalacademy.org/">AFRICA DIGITAL ACADEMY</a>
-    </div>
-    <!-- Copyright -->
-  
- 
-</footer>
-<!---------------------------------------- footer Ends here --------------------------------------------->
+          <div class="col-lg-4">
+            <div class="calendar_icon">
+              <i class="bi bi-calendar-plus-fill"></i>
+            </div>
+            <div class="online-card">
+              <div class="text-online">
+                <h1 class="online-header">
+                  Easy Scheduling & Attendance Tracking
+                </h1>
+                <p class="online-text">
+                  Schedule and reserve classrooms at one campus or multiple
+                  campuses. Keep detailed records of student attendance
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="user_icon">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <div class="online-card">
+              <div class="text-online">
+                <h1 class="online-header">Customer Tracking</h1>
+                <p class="online-text mt-4">
+                  Automate and track emails to individuals or groups. Skilline’s
+                  built-in system helps organize your organization
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="totc_con">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h3 class="totc-haedr">
+              What is <span class="totc-span">TOTC? </span>
+            </h3>
+          </div>
+          <div class="text-center">
+            <p class="toct-text">
+              TOTC is a platform that allows educators to create online classes
+              whereby they can <br />
+              store the course materials online; manage assignments, quizzes and
+              exams; monitor <br />
+              due dates; grade results and provide students with feedback all in
+              one place.
+            </p>
+          </div>
+        </div>
+        <div class="row instructors">
+          <div class="col-lg-6">
+            <div class="instructors-con">
+              <div class="int-thing">
+                <h3 class="text-for">FOR INSTRUCTORS</h3>
+                <button class="rounded-pill start-btn">
+                  Start a class today
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="online_instrutors">
+              <div class="int-thing">
+                <h3 class="text-for">FOR STUDENTS</h3>
+                <button class="rounded-pill start-btn">
+                  Enter access code
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="physical_classroom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mt-5">
+            <div class="elips_circle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="73"
+                height="53"
+                viewBox="0 0 73 73"
+                fill="none"
+                class="E-circle"
+              >
+                <circle cx="36.5" cy="36.5" r="36.5" fill="#F94C10" />
+              </svg>
+            </div>
+            <div class="physicla_text">
+              <h3 class="physical-headra">
+                Everything you can do in a physical <br />
+                classroom, <span class="YouCan_text">you can do with TOTC</span>
+              </h3>
+              <p class="physical_pre">
+                TOTC’s school management software helps traditional and online
+                schools manage scheduling, attendance, payments and virtual
+                classrooms all in one secure cloud-based system.
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="20"
+                  viewBox="0 0 30 30"
+                  fill="none"
+                >
+                  <path
+                    d="M30 15C30 23.2843 23.2843 30 15 30C6.71573 30 0 23.2843 0 15C0 6.71573 6.71573 0 15 0C23.2843 0 30 6.71573 30 15Z"
+                    fill="#33EFA0"
+                  />
+                </svg>
+              </p>
+            </div>
+          </div>
 
-<!-- Bootstrap JS -->
+          <div class="col-lg-6">
+            <div class="physical_img">
+              <img
+                src="../assets/pexels-gustavo-fring-5621952.jpg"
+                class="img-fluid phys-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
- integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
-integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
-</script>
+    <!-- our features -->
 
-</body>
+    <section class="features-section">
+      <div class="container">
+        <div class="row">
+          <div
+            class="featur_text_container justify-content-center text-center align-items-center"
+          >
+            <h3 class="featur_headre">
+              Our <span class="span-features">Features</span>
+            </h3>
+            <!-- <hr style="width: 7rem; height: 8px;" -->
+            <p class="featur-text">
+              This very extraordinary feature, can make learning activities more
+              efficient
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container-meetinng_image">
+              <img
+                src="../assets//Group 453.png"
+                class="img-fluid meeting-img"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <h4 class="meeeting-text">
+                A <span class="meeting-span">user interface</span> designed for
+                the classroom
+              </h4>
+            </div>
+            <div
+              class="meeting-item-list justify-content-center align-items-center"
+            >
+              <div class="meeting-list d-flex align-items-center">
+                <img src="../assets//Group 455.png" class="img-fluid" />
+                <p class="meeting-pra">
+                  Teachers don’t get lost in the grid view and have a dedicated
+                  Podium space.
+                </p>
+              </div>
 
+              <div class="meeting-list d-flex align-items-center">
+                <img src="../assets//Group 461.png" class="img-fluid" />
+                <p class="meeting-pra">
+                  TA’s and presenters can be moved to the front of the class.
+                </p>
+              </div>
+
+              <div class="meeting-list d-flex align-items-center">
+                <img src="../assets//Group 462.png" class="img-fluid" />
+                <p class="meeting-pra">
+                  Teachers can easily see all students and class data at one
+                  time.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our features end here -->
+
+    <!-- Teachers Tools -->
+    <section class="teachs_tool">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="teachs_text">
+              <h6 class="teachs-header">
+                <span class="teachs-span">Tools</span> For Teachers <br />
+                And Learners
+              </h6>
+              <p class="teach_pra">
+                Class has a dynamic set of teaching tools built to be deployed
+                and used during class. Teachers can handout assignments in
+                real-time for students to complete and submit.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img src="../assets//Group 122.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="assessments-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="assessments-image">
+              <img src="../assets/Group 464.png" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="assessments-text">
+              <h6 class="assessments-headra">
+                Assessments, <br />
+                <span class="assessments-span">Quizzes</span>, Tests
+              </h6>
+              <p class="assessments-pra">
+                Easily launch live assignments, quizzes, and tests. Student
+                results are automatically entered in the online gradebook.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Teachers Tools end -->
+
+    <!-- class Management -->
+    <section class="Class-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="classManagement-text">
+              <h6 class="classManagements-headra">
+                <span class="classManagement-span">Class Management </span>
+                <br />
+                Tools for Educators
+              </h6>
+              <p class="classManagement-pra">
+                Class provides tools to help run and manage the class such as
+                Class Roster, Attendance, and more. With the Gradebook, teachers
+                can review and grade tests and quizzes in real-time.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="classManagement-image">
+              <img src="../assets/Group 465.png" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- class Management end -->
+
+    <!-- One-on-One Discussios  -->
+    <section class="oneoOnOneDiscussios">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="Group-106 image">
+              <img src="../assets/Group 106.png" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="oneoOnOneDiscussios-Teaxt">
+              <h6 class="Discussios-header">
+                One-on-One <br />
+                <span class="span_disussio">Discussions</span>
+              </h6>
+              <p class="Discussions-teaxt">
+                Teachers and teacher assistants can talk with students privately
+                without leaving the Zoom environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- One-on-One Discussios  -->
+
+    <!-- Testimonial -->
+
+    <section class="testimonial-Section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="Testimonial-Teaxt">
+              <div class="d-flex testimonial-samll-text">
+                <hr class="line-testimonial" />
+                <p class="testimonial-pra">TESTIMONIAL</p>
+              </div>
+              <div class="saySomething_teaxt">
+                <h6 class="saysomething-header">What They Say?</h6>
+                <p class="saySomething-pre">
+                  TOTC has got more than 100k positive ratings from our users
+                  around the world.
+                </p>
+                <p class="saySomething-pre">
+                  Some of the students and teachers were greatly helped by the
+                  Skilline.
+                </p>
+                <p class="saySomething-pre">
+                  Are you too? Please give your assessment
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="Testimonial-carouel">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="../assets/ketut-subiyanto.jpg"
+                      class="img-fluid height= students-testimonial"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="../assets/andrea-piacquadio.jpg"
+                      class="img-fluid students-testimonial"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="..//assets/gustavo-fring.jpg"
+                      class="img-fluid students-testimonial"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial End -->
+
+    <section class="News_Section">
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <div class="New-Header justify-content-center text-center">
+              <h2 class="new-header">Lastest News and Resources</h2>
+              <p class="new-per">
+                See the developments that have occurred to TOTC in the worl
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img src="../assets/Rectangle 32.png" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <div class="p-2 d-flex">
+                <img
+                  src="../assets/Rectangle 33.png"
+                  class="img-fluid NewS-image"
+                />
+                <div class="new-text ms-4">
+                  <h6 class="New-Header">
+                    Class Technologies Inc. Closes $30 Million Series A
+                    Financing to Meet High Demand
+                  </h6>
+                  <p class="New-Pre">
+                    Class Technologies Inc., the company that created Class,...
+                  </p>
+                </div>
+              </div>
+              <div class="p-2 d-flex">
+                <img
+                  src="../assets/Rectangle 34.png"
+                  class="img-fluid NewS-image"
+                />
+                <div class="new-text ms-4">
+                  <h6 class="New-Header">
+                    Zoom’s earliest investors are betting millions on a better
+                    Zoom for schools
+                  </h6>
+                  <p class="New-Pre">
+                    Zoom was never created to be a consumer product.
+                    Nonetheless, the...
+                  </p>
+                </div>
+              </div>
+              <div class="p-2 d-flex">
+                <img
+                  src="../assets/Rectangle 37.png"
+                  class="img-fluid NewS-image"
+                />
+                <div class="new-text ms-4">
+                  <h6 class="New-Header">
+                    Former Blackboard CEO Raises $16M to Bring LMS Features to
+                    Zoom Classrooms
+                  </h6>
+                  <p class="New-Pre">
+                    Former Blackboard CEO Raises $16M to Bring LMS Features to
+                    Zoom Classrooms
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer
+      class="text-center text-lg-start align-content-center pt-5 p-0 m-0 mb-0"  style="background-color: #252641;">
+      <p 
+        class="single text-center text-white" style="font-size: 20px; font-family: 'Times New Roman', Times, serif; font-weight: 100;">
+        <strong>Sign Up for Our New Courses Updates.</strong>
+      </p>
+
+      <div class="container">
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto"></div>
+
+              <div class="col-md-5 col-12" style="background-color: none">
+                <div class="form-outline mb-4">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    id="form5Example2"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <button
+                  type="submit"
+                  class="btn mb-4 shadow-sm"
+                  style="background-color: #49bbbd"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div class="info text-center mb-3 text-decoration-none text-muted">
+        <a href="#">Careers |</a>
+        <a href="#">Privacy Policy |</a>
+        <a href="#">Teams & Conditions</a>
+      </div>
+
+      - Copyright --
+      <div
+        class="text-center p-3 text-muted"
+        style="background-color: rgba(122, 69, 69, 0.2)"
+      >
+        © 2023 Copyright:
+        <a class="text-decoration-none" href="#">AFRICA DIGITAL ACADEMY</a>
+      </div>
+      - Copyright      
+    </footer>
+    <!-- Footer End -->
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
