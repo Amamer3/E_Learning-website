@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Landing.css">
+    <title>checkout-Page</title>
+</head>
+
+<body>
+
+
+<!---------------------------------------------Navbar-------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-lg-0 shadow-sm sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/mainlogo.png" alt="img">
+          </a>
+          <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end gap-4" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-underline">
+                <li class="nav-item">
+                    <a class="nav-link" href="../LandingPages/Landing.html">Home</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+            </ul>
+            <a class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end" style="background-color: #f3705f;" href="../login/login.html">Register</a>
+         </div>
+        </div>
+      </nav>
+<!---------------------------------------------Navbar Ends here------------------------>
+
+ 
+    
+
+
+
+
+      <!-- <div class="col-md-8 order-md-1">
+        <h4 class="mb-3 text-center mb-3">Billing Address</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+   
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                Your username is required.
+              </div>
+            </div>
+          </div>
+   
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+   
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+   
+          <div class="mb-3">
+            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+          </div>
+   
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">State</label>
+              <select class="custom-select d-block w-100" id="state" required>
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Save this information for next time</label>
+          </div>
+          <hr class="mb-4"> -->
+   
+          
+    
+        
+<!--------------Payment starts----------------------------->
+    <div class="container shadow-lg p-lg-4 m-lg-4 rounded-4">
+        
+        <h3 class="mb-3 ">Payment</h3>
+            <h5> Card Type</h5>
+            <!-- <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                <label class="custom-control-label" for="credit">Credit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="debit">Debit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="paypal">PayPal</label>
+              </div>
+            </div> -->
+            <div class="cards-img justify-content-lg-between">
+              <a href="#"><img style="width: 167px; height: 92px;  border: 0.5px solid #49bbbd; border-radius: 15px; " src="../assets/img-cards/visa (1).png" alt=""></a>  
+               <a href="#"><img style="width: 160px; height: 92px; border: 0.5px solid #49bbbd; border-radius: 10px;" src="../assets/img-cards/visa (2).png" alt=""></a> 
+               <a href="#"><img style="width: 139px; height: 92px; border: 0.5px solid #49bbbd; border-radius: 10px; " src="../assets/img-cards/visa (3).png" alt=""></a> 
+               <a href="#"><img style="width: 170px; height: 92px; border: 0.5px solid #49bbbd; border-radius: 10px; " src="../assets/img-cards/master_card-removebg-preview.png" alt=""></a> 
+
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="Enter name on card" required>
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              
+              <div class=" mb-3">
+                <label for="cc-number">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="Enter card number" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration Date (MM/YY)</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="mm / yy" required>
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-cvv">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="xxx" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="same-address">
+                <label class="custom-control-label my-3" for="same-address">Save my information for faster checkout</label>
+              </div>
+            <!-- <button class="btn btn-primary btn-group-lg btn-block" type="submit">Continue to checkout</button> -->
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Confirm Payment</button>
+            </div>
+
+          </form>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+        
+    <!-----------------------------------------Payment Ends----------------------------------------->
+
+
+
+
+
+
+
+
+
+
+<!-- -------------------------------------- place footer here ------------------------------------------->
+
+ <footer class="text-center text-lg-start align-content-center pt-5 p-0 m-0 mb-0">
+    
+    
+    <p class="single text-center text-white" style="font-weight: bold; font-size: 18px; font-family: Arial, Helvetica, sans-serif, Times New Roman;">
+      <strong>Sign Up for Our New Courses Updates.</strong>
+    </p>
+  
+    <div class="container">
+      
+      <section class="">
+        <form action="">
+          
+          <div class="row d-flex justify-content-center">
+            
+            <div class="col-auto">
+            
+            </div>
+            
+  
+           
+            <div class="col-md-5 col-12" style="background-color: none;">
+              
+              <div class="form-outline mb-4">
+                <input type="email" placeholder="Email Address" id="form5Example2" class="form-control" />
+              </div>
+            </div>
+            
+  
+
+            <div class="col-auto">
+  
+              
+              <button type="submit" class="btn mb-4 shadow-sm" style="background-color: #49bbbd; ">
+                Subscribe
+              </button>
+            </div>
+            
+          </div>
+          
+        </form>
+      </section>
+      
+    </div>
+  
+    <div class="info text-center mb-3 text-decoration-none text-muted">
+      <a href="#">Careers |</a>
+      <a href="#">Privacy Policy |</a>
+      <a href="#">Teams & Conditions</a>
+    </div>
+  
+    - Copyright --
+    <div class="text-center p-3 text-muted" style="background-color: rgba(122, 69, 69, 0.2)">
+      © 2023 Copyright:
+      <a class=" text-decoration-none" href="https://africadigitalacademy.org/">AFRICA DIGITAL ACADEMY</a>
+    </div>
+    - Copyright 
+  
+ 
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+ integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
+integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous">
+</script>
+
+</body>
+
+</html>
