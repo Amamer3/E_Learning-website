@@ -1,0 +1,186 @@
+body{
+    
+    background-color: rgb(249, 249, 252);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    
+    
+  
+  }
+  
+  span{
+    color: rgb(102, 193, 209);
+  }
+  .home-text p{
+    color: #2F327D !important;
+  }
+  .btn{
+    background-color: rgb(102, 193, 209);
+  }
+  .home-image img{
+    border-radius: 15px;
+  }
+  .home{
+    background-color: #ebf5ff;
+  }
+  form-outline{
+    border-radius: 25px;
+    background-color: brown;
+  }
+  .section-color{
+    background-color: #ebf5ff !important;
+    padding: 10px 0;
+  }
+  .single{
+    color: #B2B3CF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.04px;
+  
+  }
+  
+  .sec{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.88px;
+  }
+  
+  
+  
+  /*course card*/
+  
+  .course-card {
+      border: 1px solid #080808;
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .course-image {
+      max-width: 200px;
+      height: auto;
+    }
+    
+  .course-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+    
+  .course-description {
+    margin-bottom: 15px;
+  }
+    
+  .instructor {
+    margin-bottom: 10px;
+  }
+    
+  .course-rating {
+    margin-bottom: 10px;
+  }
+    
+  .course-price,
+  .course-duration {
+    margin-bottom: 5px;
+  }
+    
+  .instructor-info {
+    margin-top: 20px;
+  }
+    
+  .instructor-image {
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+    
+  .instructor-name {
+    margin-top: 5px;
+  }
+   
+  .card-image{
+    border-radius: 20px;
+  }
+  
+  
+  /*footer sec*/
+  footer{
+    background-color: #252641;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
