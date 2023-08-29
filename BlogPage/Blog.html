@@ -80,6 +80,7 @@
 
 
 <!-----------------head pic-------------------->
+<section class="bg-white py-5">
 <div class="container mb-4 pt-3">
   <div class="row">
     <div class="col-md-3">
@@ -112,7 +113,7 @@
 
     <div class="col-md-3 ">
       <div class="card text-white">
-        <img src="../assets/" class="card-img" alt="...">
+        <img src="../assets/javascriptdev.jpg" class="card-img" alt="...">
         <div class="bg-white position-absolute top-0 text-black px-2 m-2 text-center opacity-50 rounded-2">
           <h5 class="card-title p-0 m-0">JavaScript</h5>
         </div>
@@ -120,7 +121,7 @@
     </div>
   </div>
 </div>
-
+</section>
 <!----------------------------------------End of Second section----------------------------------------------------->
 
 
@@ -128,121 +129,141 @@
 
 
 
-<div class="container mt-5">
-  <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner" style="height: 60targpx;">
-      <div class="carousel-item active">
-        <img src="images/pexels-thisisengineering-3861972.jpg" class="img-fluid object-fit-cover" alt="Image 1">
-        <div class="carousel-caption">
-          <h5>Image 1 Caption</h5>
-          <p>Some description about Image 1.</p>
-        </div>
-      </div>
+<!------------------------ carousel open ---------------->
 
-      <div class="carousel-item">
-        <div class="card-image rounded-3">
-          <img src="images/pexels-thisisengineering-3861972.jpg" class="img-fluid object-fit-cover" alt="Image 2">
-        </div>
-        <div class="carousel-caption text-start">
-          <h5>caption One</h5>
-          <p>Some description about Image 2.</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card-image">
-          <img src="images/Rectangle 23.png" alt="Image 2">
-        </div>
-        <div class="carousel-caption">
-          <h5>Image 2 Caption</h5>
-          <p>Some description about Image 2.</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card-image">
-          <img src="images/Rectangle 34 (1).png"  alt="Image 2">
-        </div>
-        <div class="carousel-caption">
-          <h5>2 Caption</h5>
-          <p>Some description about Image 2.</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-         <div class="card-image">
-          <img src="images/Rectangle 34 (2).png" alt="Image 2">
-        </div>
-        <div class="carousel-caption">
-          <h5>Image 2 Caption</h5>
-          <p>Some description about Image 2.</p>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <div class="card-image">
-          <img src="images/Rectangle 34.png" alt="Image 2">
-        </div>
-        <div class="carousel-caption">
-          <h5>Image 2 Caption</h5>
-          <p>Some description about Image 2.</p>
-        </div>
-      </div>
-      
-      <!-- Add more carousel items as needed -->
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="section-color mb-4">
+<section class="pt-5 pb-5">
   <div class="container">
-    <div class="row mt-4 text-center pb-5">
-      <div class="col-lg-5">
-        <div class="card shadow-sm">
-          <img src="images/Rectangle 23.png" class="card-img-top" alt="image">
-          <div class="card-body text-start ">
-            <p class="card-text">Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution</p>
-            <img src="images/image 12.png" alt="instruc img">
+      <div class="row">
+          <div class="col-6">
+              <h3 class="mb-3">Carousel cards title </h3>
           </div>
-        </div>
-      </div>
-    
-      <div class="col-lg-5">
-        <div class="card shadow-sm">
-          <img src="images/Rectangle 23.png" class="card-img-top" alt="...">
-          <div class="card-body text-start">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <img src="images/image 12.png" alt="instuc img">
-            <p>
-              Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...
-              <img src="images/image 12.png" alt="instuc img">
-            </p>
+          <div class="col-6 text-right">
+              <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+              </a>
+              <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+              </a>
           </div>
-        </div>
+          <div class="col-12">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="row">
+
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 32 (1).png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 32 (2).png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 32.png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="row">
+
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 33.png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/wind.png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/wind1.png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="row">
+
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 32 (1).png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/wind2.png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mb-3">
+                                  <div class="card">
+                                      <img class="img-fluid" alt="100%x280" src="../assets/Blog-images/Rectangle 32 (2).png">
+                                      <div class="card-body">
+                                          <h4 class="card-title">Special title treatment</h4>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
   </div>
-</div> -->
+</section>
 
 
 
@@ -250,13 +271,21 @@
 
 
 
+<!------------------------ carousel open ---------------->
 
+
+
+
+
+<!-------------section------------->
+<section class=" py-5">
+      
 <div class="bg-white">
   <div class="container">
-    <div class="row mt-4 text-center pb-5 g-3">
+    <div class="row mt-4 text-center pb-5">
       <div class="col-md-4">
         <div class="card">
-          <img src="images/instuctor.jpg" class="card-img-top" alt="...">
+          <img src="../assets/Blog-images/Rectangle 32 (1).png" class="card-img-top rounded-4" alt="...">
           <div class="card-body text-start">
 
             <h4 class="text-start">
@@ -265,15 +294,19 @@
             <p class="card-text text-start">
               Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
             </p>
-            <img src="images/image 12.png" alt="instuc img" class="pt-2 text-start">
-            <p class="mx-3 text-decoration-underline">Lina</p>
+            <img src="../assets/Blog-images/image 12.png" alt="instuc img" class="pt-2 text-start">
+            
+          </div>
+          <div class="card-footer">
+            <i class="fa-regular fa-clock"></i>
+            <small class="text-muted">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>
-    
+        <!-------------------opp2-->
       <div class="col-md-4">
         <div class="card">
-          <img src="images/instuctor.jpg" class="card-img-top" alt="...">
+          <img src="../assets/Blog-images/Rectangle 32.png" class="card-img-top rounded-4" alt="...">
           <div class="card-body text-start">
             <h4 class="text-start">
               AWS Certified solutions Architect
@@ -281,16 +314,20 @@
             <p class="card-text text-start">
               Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
             </p>
-            <img src="images/image 12.png" alt="instuc img" class="pt-2 text-start">
-              <p class="mx-3 text-decoration-underline">Lina</p>
+            <img src="../assets/Blog-images/image 12.png" alt="instuc img" class="pt-2 text-start">
+              
+          </div>
+          <div class="card-footer">
+            <i class="fa-regular fa-clock"></i>
+            <small class="text-muted">Last updated 3 mins ago</small>
           </div>
         </div>
       </div>
 
-
+          <!----------------opp3-->
       <div class="col-md-4">
         <div class="card">
-          <img src="images/instuctor.jpg" class="card-img-top" alt="...">
+          <img src="../assets/Blog-images/Rectangle 32.png" class="card-img-top rounded-4" alt="...">
           <div class="card-body text-start">
             <h4 class="text-start">
               AWS Certified solutions Architect
@@ -298,8 +335,8 @@
             <p class="card-text text-start">
               Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
             </p>
-            <img src="images/image 12.png" alt="instuc img" class="pt-2">
-            <p class="mx-3 text-decoration-underline">Lina</p>
+            <img src="../assets/Blog-images/image 12.png" alt="instuc img" class="pt-2">
+            
           </div>
         
           <div class="card-footer">
@@ -311,166 +348,142 @@
       </div>
   </div>
 </div>
+</section>
+
+<!---------------------End of section--------------------------->
 
 
 
-<!-----------
 
-  <div class="row bg-white pt-4">
-        <div class="col-md-4">
-          <div class="container">
-            <div class="course-card shadow-sm">
-              <img class="course-image" src="images/frontend.png" alt="Course Image">
-              <h2 class="course-title">Html</h2>
-              <p class="course-description">Course description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p class="instructor">Instructor: John Doe</p>
-              <div class="course-rating text-warning">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+
+<section class="Recommended-Course">
+  <div class="container">
+    <h6 class="Comm-head text-danger pt-3 fw-bold mx-4 fs-5">More For You</h6>
+      <div class="row">
+          <div class="col-lg-4">
+                <div class="recommended-course-card  justify-content-center align-items-center  p-4 mb-4 ">
+                  <div class="recommended-image ">
+                      <img src="../assets/Blog-images/Rectangle 33.png" class="img-fluid mian-imag "/>
+                  </div>
+                  <div class="icon-section d-flex  ">
+                      <div class="fill-icon">
+                          <i class="bi bi-menu-button-fill"></i>
+                          AWS Certified 
+                      </div>
+                      <div class="clock-icon">
+                          <i class="bi bi-clock"></i>3 Month
+                      </div>
+                  </div>
+                  <div class="Text-Section mt-5">
+                      <p class="AWS-header">AWS Certified solutions Architect</p>
+                      <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                  </div>
+                  <div class="down-section d-flex">
+                      <div class="user-image">
+                          <img src="../assets/Blog-images/image 12.png" class="img-fluid"/>
+                      </div>
+                      <div class="Useer-paided d-flex gap-2 py-3">
+                          <p class="paides-text pt-3">$100</p>
+                          <p class="padies-Big pt-3">$80</p>
+                      </div>
+                  </div>
               </div>
-              <p class="course-price">Price: $49.99</p>
-              <p class="course-duration">Duration: 3 months</p>
-              <div class="instructor-info">
-                <img class="instructor-image" src="images/instuctor.jpg" alt="Instructor Image">
-                <p class="instructor-name">Instructor: Jane Smith</p>
-              </div>
-            </div>
           </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="container">
-            <div class="course-card shadow-sm">
-              <img class="course-image" src="images/frontend.png" alt="Course Image">
-              <h2 class="course-title">Html</h2>
-              <p class="course-description">Course description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p class="instructor">Instructor: John Doe</p>
-              <div class="course-rating text-warning">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+
+
+    <div class="col-lg-4">
+            <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+              <div class="recommended-image ">
+                  <img src="../assets/Blog-images/Rectangle 32.png" class="img-fluid mian-imag "/>
               </div>
-              <p class="course-price">Price: $49.99</p>
-              <p class="course-duration">Duration: 3 months</p>
-              <div class="instructor-info">
-                <img class="instructor-image" src="images/instuctor.jpg" alt="Instructor Image">
-                <p class="instructor-name">Instructor: Jane Smith</p>
+              <div class="icon-section d-flex  ">
+                  <div class="fill-icon">
+                      <i class="bi bi-menu-button-fill"></i>
+                      AWS Certified 
+                  </div>
+                  <div class="clock-icon">
+                      <i class="bi bi-clock"></i>3 Month
+                  </div>
               </div>
-            </div>
+              <div class="Text-Section mt-5">
+                  <p class="AWS-header">AWS Certified solutions Architect</p>
+                  <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+              </div>
+              <div class="down-section d-flex">
+                  <div class="user-image">
+                      <img src="../assets/Blog-images/image 12.png" class="img-fluid"/>
+                  </div>
+                  <div class="Useer-paided d-flex gap-2 py-3">
+                      <p class="paides-text pt-3">$100</p>
+                      <p class="padies-Big pt-3">$80</p>
+                  </div>
+              </div>
           </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="container">
-            <div class="course-card shadow-sm">
-              <img class="course-image" src="images/frontend.png" alt="Course Image">
-              <h2 class="course-title">Html</h2>
-              <p class="course-description">Course description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <p class="instructor">Instructor: John Doe</p>
-              <div class="course-rating text-warning">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <p class="course-price">Price: $49.99</p>
-              <p class="course-duration">Duration: 3 months</p>
-              <div class="instructor-info">
-                <img class="instructor-image" src="images/instuctor.jpg" alt="Instructor Image">
-                <p class="instructor-name">Instructor: Jane Smith</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
       </div>
-      ------------->
 
 
-    <!-------the last col-----
-    <div class="container pt-3">
-      
-      <div class="row row-cols-1 row-cols-md-3 g-4 pt-4 pb-4 bg-white">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/instuctor.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+      <div class="col-lg-4">
+        <div class="recommended-course-card  justify-content-center align-items-center  p-4 mb-4 ">
+          <div class="recommended-image ">
+              <img src="../assets/Blog-images/Rectangle 32 (2).png" class="img-fluid mian-imag "/>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/instuctor.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+          <div class="icon-section d-flex  ">
+              <div class="fill-icon">
+                  <i class="bi bi-menu-button-fill"></i>
+                  AWS Certified 
+              </div>
+              <div class="clock-icon">
+                  <i class="bi bi-clock"></i>3 Month
+              </div>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="images/instuctor.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </div>
+          <div class="Text-Section mt-5">
+              <p class="AWS-header">AWS Certified solutions Architect</p>
+              <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
           </div>
-        </div>
+          <div class="down-section d-flex">
+              <div class="user-image">
+                  <img src="../assets/Blog-images/image 12.png" class="img-fluid"/>
+              </div>
+              <div class="Useer-paided d-flex gap-2 py-3 ">
+                  <p class="paides-text pt-3">$100</p>
+                  <p class="padies-Big pt-3">$80</p>
+              </div>
+          </div>
       </div>
-    </div>
------------------------------------------>
-
-
-<div class="splide" role="group" aria-label="Splide Basic HTML Example">
-  <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide">Slide 01</li>
-			<li class="splide__slide">Slide 02</li>
-			<li class="splide__slide">Slide 03</li>
-		</ul>
   </div>
-</div>
 
 
 
-<div class="card" aria-hidden="true">
-  <img class="card-img-top" src="holder.js/100x180/" alt="Some text">
-  <div class="card-body">
-      <h5 class="card-title placeholder">
-          <span class="placeholder col-6">Some text</span>
-      </h5>
-      <p class="card-text placeholder">
-          <span class="placeholder col-7">Some text</span>
-          <span class="placeholder col-4">Some text</span>
-          <span class="placeholder col-4">Some text</span>
-          <span class="placeholder col-6">Some text</span>
-          <span class="placeholder col-8">Some text</span>
-      </p>
-      <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6">Some text</a>
+      </div>
   </div>
-</div>
+
+</section>
+
+
+
+
+
+
+
+
+
 
 
 
 
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
