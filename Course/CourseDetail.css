@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,400;1,500;1,800;1,900&display=swap");
+.header-section-image {
+  background-image: url(../assets/Group\ 236.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 552px;
+  flex-shrink: 0;
+}
+
+.card {
+  position: relative;
+  left: 30%;
+  bottom: 50%;
+  border-radius: 20px;
+  border: 30px solid #fff;
+  background: #fff;
+  border-radius: 20px;
+}
+.card-img-top {
+  width: 332px;
+}
+.number-headre {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+}
+.number-text{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.56px;
+text-decoration: line-through;
+}
+
+.othernumber-text{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px;
+}
+.time-text{
+    color: #49BBBD;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+.buy-btn{
+    border-radius: 12px;
+    background: #49BBBD !important;
+    width: 443px !important;
+height: 63px;
+flex-shrink: 0;
+}

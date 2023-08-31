@@ -1,128 +1,230 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,100;1,200;1,400;1,500;1,800;1,900&display=swap");
 
-.Choice-header{
-    color: #45465c;
-    font-family: "Poppins", sans-serif;
-font-size: 35px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.Choice-header {
+  color: #45465c;
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-
-.Choice-card-category{
-    width: 349px;
+.Choice-card-category {
+  width: 349px;
   height: 377px;
   flex-shrink: 0;
-    border-radius: 20px;
-  background: #fff;
-  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.10);
-  }
-  
-  
-  .course-header{
-    color: #000;
-    font-family: "Poppins", sans-serif;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.6px;
-  }
-  .course-pre{
-    color: #696984;
-text-align: center;
-font-family: "Poppins", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.36px;
-  }
-
-  .Recommended-Course{
-    background-color:#9dccff47;
-    margin-top: 12%;
-
-  }
-  .Recomm-headra{
-    color: #000 !important;
-    font-family: "Poppins", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing
-  }
-.recommended-course-card{
   border-radius: 20px;
-  background: #FFF;
-  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.10);
+  background: #fff;
+  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px
+    rgba(47, 50, 125, 0.1);
+}
+/* @media only screen and (min-width: 768px)  {
+  .Choice-card-category{
+    width: 249px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px
+      rgba(47, 50, 125, 0.1);
+  }
+} */
+
+.course-header {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.course-pre {
+  color: #696984;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.Recommended-Course {
+  background-color: #9dccff47;
+  margin-top: 12%;
+}
+.Recomm-headra {
+  color: #000 !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.recommended-course-card {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px
+    rgba(47, 50, 125, 0.1);
   width: 374px;
   height: 537px;
-  flex-shrink: 0;
 }
+
+@media screen and (max-width: 567px) {
+  .recommended-course-card {
+    border-radius: 20px;
+    background-color: #fff;
+    width: 384px;
+    height: 527px;
+  }
+  .recommended-course-card:not(:first-child) {
+    display: none;
+  }
+  .Choice-card-category{
+    background-color: red;
+  }
+}
+
 .mian-imag {
   border-radius: 20px;
   width: 334.004px;
-
 }
-.clock-icon{
+.clock-icon {
   margin-left: 38%;
   color: #696984;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 180%; /* 25.2px */
-letter-spacing: 0.28px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  letter-spacing: 0.28px;
 }
-.fill-icon{
+.fill-icon {
   color: #696984;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 180%; /* 25.2px */
   letter-spacing: 0.28px;
 }
-.AWS-header{
+.AWS-header {
   color: #252641;
-font-family: Poppins;
-font-size: 23px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-}
-.AWS-pre{
-  color: #696984;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 180%; /* 32.4px */
-letter-spacing: 0.36px;
-}
-.paides-text{
-  color: rgba(0, 0, 0, 0.50);
   font-family: "Poppins", sans-serif;
-font-size: 15px;
-font-style: italic;
-font-weight: 200;
-line-height: 10%;
-letter-spacing: 0.36px;
-text-decoration: line-through;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-.padies-Big{
-  color: #49BBBD;
-font-family: Poppins;
-font-size: 19px;
-font-style: normal;
-font-weight: 500;
-line-height: 10%;
-letter-spacing: 0.48px;
+.AWS-pre {
+  color: #696984;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 180%; /* 32.4px */
+  letter-spacing: 0.36px;
+}
+.paides-text {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 10%;
+  letter-spacing: 0.36px;
+  text-decoration: line-through;
+}
+.padies-Big {
+  color: #49bbbd;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 10%;
+  letter-spacing: 0.48px;
 }
 
-.Useer-paided{
+.Useer-paided {
   margin-left: 48%;
+}
+
+.carousel-control-prev {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+}
+.carousel-control-next {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+}
+
+.Previous-icon {
+  color: #49bbbd;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 280%;
+}
+
+.Next-icon {
+  color: #49bbbd;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+}
+.text-seeAll {
+  color: #49bbbd;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.choice-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+.start-conainer {
+  border-radius: 37px;
+  background: #252641;
+  width: 1682px;
+  height: 334px;
+}
+.start-heard{
+  color: #FFF;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.start-pre{
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 43.2px */
+letter-spacing: 0.48px;
+}
+.Start-btn{
+  color: #fff;
+  width: 236px;
+height: 63px;
+flex-shrink: 0;
+  border: none;
+  border-radius: 12px;
+background: #49BBBD;
 }

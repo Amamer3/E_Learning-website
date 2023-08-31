@@ -1,341 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- Bootstrap CSS v5.2.1 -->
-   <link
-   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-   rel="stylesheet"
-   integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-   crossorigin="anonymous"
- />
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
- <link
-   rel="stylesheet"
-   href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css "
- />
-  <!-- Swiper.js -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
-  <link rel="stylesheet" href="Course.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css "
+    />
+    <!-- Swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="Course.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!--navbar here -->
-        <nav
-          class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary p-lg-0"
-        >
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="../assets/mainlogo.png" alt="img" />
-            </a>
-            <button
-              class="navbar-toggler shadow-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end gap-4"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav nav-underline">
-                <li class="nav-item">
-                  <a class="nav-link" href="../LandingPages/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../Course/Course.html">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Careers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
-                </li>
-              </ul>
-              <a
-                class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
-                style="background-color: #f3705f"
-                href="../login/login.html"
-                >Register</a
-              >
-            </div>
-          </div>
-        </nav>
-      </header>
-    <Section class="  Top-course-Category">
-        <div class="container" >
-            <h4 class="Choice-header py-5" >Choice Favourite course from top category</h4>
-            <!-- Carousel  -->
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="Choice-card-category  justify-content-center align-items-center text-center">
-                <div class="icon_course pt-5">
-                    <img  src="../assets/design.png" class="img-fluid"/>
-                </div>
-                <div class="text_course">
-                    <h6 class="course-header">Design</h6>
-                    <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-              </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="Choice-card-category  justify-content-center align-items-center text-center">
-                <div class="icon_course pt-5">
-                    <img  src="../assets/Development.png" class="img-fluid"/>
-                </div>
-                <div class="text_course">
-                    <h6 class="course-header">Development</h6>
-                    <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-              </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="Choice-card-category  justify-content-center align-items-center text-center">
-                <div class="icon_course pt-5">
-                    <img  src="../assets//DataB.png" class="img-fluid"/>
-                </div>
-                <div class="text_course">
-                    <h6 class="course-header">Databases</h6>
-                    <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-              </div>
-            </div>
-        </div>
-        
-    </div>
-
-<div class="row mt-3">
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Business.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Business</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Marketing.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Marketing</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Photography.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Photography</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-</div>
-
-
-<div class=" row mt-3 ">
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Business.png" class="img-fluid"/>
-            </div> 
-            <div class="text_course">
-                <h6 class="course-header">Business</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Marketing.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Marketing</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Photography.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Photography</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-
-</div>
-
-
-
-<div class="row mt-3">
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Business.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Business</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Marketing.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Marketing</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="Choice-card-category  justify-content-center align-items-center text-center">
-            <div class="icon_course pt-5">
-                <img  src="../assets/Photography.png" class="img-fluid"/>
-            </div>
-            <div class="text_course">
-                <h6 class="course-header">Photography</h6>
-                <p class="course-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodadipiscing elit, sed do eiusmod</p>
-          </div>
-        </div>
-    </div>
-
-</div>
-
-</div>
-              <!-- Carousel End  -->
-    </Section>
-
-    <section class="Recommended-Course">
+      <!--navbar here -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary p-lg-0"
+      >
         <div class="container">
-            <h6 class="Recomm-headra">Recommended for you</h6>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
-                        <div class="recommended-image ">
-                            <img src="../assets/AWS Cerrtified.jpeg" class="img-fluid mian-imag "/>
-                        </div>
-                        <div class="icon-section d-flex  ">
-                            <div class="fill-icon">
-                                <i class="bi bi-menu-button-fill"></i>
-                                AWS Certified 
-                            </div>
-                            <div class="clock-icon">
-                                <i class="bi bi-clock"></i>3 Month
-                            </div>
-                        </div>
-                        <div class="Text-Section mt-5">
-                            <p class="AWS-header">AWS Certified solutions Architect</p>
-                            <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-                        </div>
-                        <div class="down-section d-flex">
-                            <div class="user-image">
-                                <img src="../assets/image 12.png" class="img-fluid"/>
-                            </div>
-                            <div class="Useer-paided d-flex gap-4 pt-3">
-                                <p class="paides-text">$100</p>
-                                <p class="padies-Big">$80</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
-                        <div class="recommended-image ">
-                            <img src="../assets/webapp.jpeg" class="img-fluid mian-imag "/>
-                        </div>
-                        <div class="icon-section d-flex  ">
-                            <div class="fill-icon">
-                                <i class="bi bi-menu-button-fill"></i>
-                                AWS Certified 
-                            </div>
-                            <div class="clock-icon">
-                                <i class="bi bi-clock"></i>3 Month
-                            </div>
-                        </div>
-                        <div class="Text-Section mt-5">
-                            <p class="AWS-header">AWS Certified solutions Architect</p>
-                            <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-                        </div>
-                        <div class="down-section d-flex">
-                            <div class="user-image">
-                                <img src="../assets/image 12.png" class="img-fluid"/>
-                            </div>
-                            <div class="Useer-paided d-flex gap-4 pt-3">
-                                <p class="paides-text">$100</p>
-                                <p class="padies-Big">$80</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <a class="navbar-brand" href="#">
+            <img src="../assets/mainlogo.png" alt="img" />
+          </a>
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end gap-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link" href="../LandingPages/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Course/Course.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
+              </li>
+            </ul>
+            <a
+              class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
+              style="background-color: #f3705f"
+              href="../login/login.html"
+              >Register</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="Top-course-Category">
+      <div class="container">
+        <h4 class="Choice-header py-5">
+          Choice Favourite course from top category
+        </h4>
 
-                <div class="col-lg-4">
-                    <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
-                        <div class="recommended-image ">
-                            <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
-                        </div>
-                        <div class="icon-section d-flex  ">
-                            <div class="fill-icon">
-                                <i class="bi bi-menu-button-fill"></i>
-                                AWS Certified 
+        <!-- Carousel  -->
+    
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6 choice-card ">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/design.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Design</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Development.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Development</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets//DataB.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Databases</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Business.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Business</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Marketing.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Marketing</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Photography.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Photography</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Business.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Business</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Marketing.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Marketing</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Photography.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Photography</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Business.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Business</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Marketing.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Marketing</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              class="Choice-card-category justify-content-center align-items-center text-center"
+            >
+              <div class="icon_course pt-5">
+                <img src="../assets/Photography.png" class="img-fluid" />
+              </div>
+              <div class="text_course">
+                <h6 class="course-header">Photography</h6>
+                <p class="course-pre">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmodadipiscing elit, sed do eiusmod
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel End  -->
+    </section>
+
+    <section class="Recommended-Course py-5">
+      <div class="container">
+        <h6 class="Recomm-headra py-3">Recommended for you</h6>
+
+        <!-- Card Carousel -->
+
+        <div
+          id="carouselExampleControlsNoTouching"
+          class="carousel carousel-dark slide d-sm-block"
+          data-bs-touch="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-lg-4 col-3">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4 ">
+                            <div class="recommended-image ">
+                                <img src="../assets/AWS Cerrtified.jpeg" class="img-fluid mian-imag "/>
                             </div>
-                            <div class="clock-icon">
-                                <i class="bi bi-clock"></i>3 Month
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="Text-Section mt-5">
-                            <p class="AWS-header">AWS Certified solutions Architect</p>
-                            <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-                        </div>
-                        <div class="down-section d-flex">
-                            <div class="user-image">
-                                <img src="../assets/image 12.png" class="img-fluid"/>
+                    </div>
+                    <div class="col-lg-4 col-12 col-3">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webapp.jpeg" class="img-fluid mian-imag "/>
                             </div>
-                            <div class="Useer-paided d-flex gap-4 pt-3">
-                                <p class="paides-text">$100</p>
-                                <p class="padies-Big">$80</p>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-12">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/AWS Cerrtified.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webapp.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/AWS Cerrtified.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webapp.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                            <div class="recommended-image ">
+                                <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+                            </div>
+                            <div class="icon-section d-flex  ">
+                                <div class="fill-icon">
+                                    <i class="bi bi-menu-button-fill"></i>
+                                    AWS Certified 
+                                </div>
+                                <div class="clock-icon">
+                                    <i class="bi bi-clock"></i>3 Month
+                                </div>
+                            </div>
+                            <div class="Text-Section mt-5">
+                                <p class="AWS-header">AWS Certified solutions Architect</p>
+                                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                            </div>
+                            <div class="down-section d-flex">
+                                <div class="user-image">
+                                    <img src="../assets/image 12.png" class="img-fluid"/>
+                                </div>
+                                <div class="Useer-paided d-flex gap-4 pt-3">
+                                    <p class="paides-text">$100</p>
+                                    <p class="padies-Big">$80</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev  "
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev"
+          >
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="bi bi-arrow-left-circle-fill  Previous-icon" aria-hidden="true"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next "
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next"
+          >
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="bi bi-arrow-right-circle-fill Next-icon"  aria-hidden="true"></i>
+          </button>
         </div>
 
-
+        <!-- Card Carousel end here -->
+      </div>
     </section>
-   
 
-  <script
-  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-  crossorigin="anonymous"
-></script>
+    <section class="Get-Choice mt-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <p class="choice-text">Get choice of your course</p>
+        <p class="text-seeAll">see All</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-4 col-sm-6">
+            <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                <div class="recommended-image ">
+                    <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+                </div>
+                <div class="icon-section d-flex  ">
+                    <div class="fill-icon">
+                        <i class="bi bi-menu-button-fill"></i>
+                        AWS Certified 
+                    </div>
+                    <div class="clock-icon">
+                        <i class="bi bi-clock"></i>3 Month
+                    </div>
+                </div>
+                <div class="Text-Section mt-5">
+                    <p class="AWS-header">AWS Certified solutions Architect</p>
+                    <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="down-section d-flex">
+                    <div class="user-image">
+                        <img src="../assets/image 12.png" class="img-fluid"/>
+                    </div>
+                    <div class="Useer-paided d-flex gap-4 pt-3">
+                        <p class="paides-text">$100</p>
+                        <p class="padies-Big">$80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-lg-4 col-sm-6">
+          <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+              <div class="recommended-image ">
+                  <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+              </div>
+              <div class="icon-section d-flex  ">
+                  <div class="fill-icon">
+                      <i class="bi bi-menu-button-fill"></i>
+                      AWS Certified 
+                  </div>
+                  <div class="clock-icon">
+                      <i class="bi bi-clock"></i>3 Month
+                  </div>
+              </div>
+              <div class="Text-Section mt-5">
+                  <p class="AWS-header">AWS Certified solutions Architect</p>
+                  <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+              </div>
+              <div class="down-section d-flex">
+                  <div class="user-image">
+                      <img src="../assets/image 12.png" class="img-fluid"/>
+                  </div>
+                  <div class="Useer-paided d-flex gap-4 pt-3">
+                      <p class="paides-text">$100</p>
+                      <p class="padies-Big">$80</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+            <div class="recommended-image ">
+                <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+            </div>
+            <div class="icon-section d-flex  ">
+                <div class="fill-icon">
+                    <i class="bi bi-menu-button-fill"></i>
+                    AWS Certified 
+                </div>
+                <div class="clock-icon">
+                    <i class="bi bi-clock"></i>3 Month
+                </div>
+            </div>
+            <div class="Text-Section mt-5">
+                <p class="AWS-header">AWS Certified solutions Architect</p>
+                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="down-section d-flex">
+                <div class="user-image">
+                    <img src="../assets/image 12.png" class="img-fluid"/>
+                </div>
+                <div class="Useer-paided d-flex gap-4 pt-3">
+                    <p class="paides-text">$100</p>
+                    <p class="padies-Big">$80</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+      </div>
+    </section>
 
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-  integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-  crossorigin="anonymous"
-></script>
-</body>
+    <section class="startLearning-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="start-conainer justify-content-center align-items-center text-center">
+            <div class="start-text justify-content-center align-items-center text-center mt-5">
+              <p class="start-heard">Online coaching lessons for remote learning.</p>
+              <p class="start-pre">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor ,<br> sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            </div>
+            <button class="Start-btn my-4">Start learning now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="Get-Choice mt-5 py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <p class="choice-text">Student are viewing</p>
+        <p class="text-seeAll">see All</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-4 col-sm-6">
+            <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+                <div class="recommended-image ">
+                    <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+                </div>
+                <div class="icon-section d-flex  ">
+                    <div class="fill-icon">
+                        <i class="bi bi-menu-button-fill"></i>
+                        AWS Certified 
+                    </div>
+                    <div class="clock-icon">
+                        <i class="bi bi-clock"></i>3 Month
+                    </div>
+                </div>
+                <div class="Text-Section mt-5">
+                    <p class="AWS-header">AWS Certified solutions Architect</p>
+                    <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="down-section d-flex">
+                    <div class="user-image">
+                        <img src="../assets/image 12.png" class="img-fluid"/>
+                    </div>
+                    <div class="Useer-paided d-flex gap-4 pt-3">
+                        <p class="paides-text">$100</p>
+                        <p class="padies-Big">$80</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-lg-4 col-sm-6">
+          <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+              <div class="recommended-image ">
+                  <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+              </div>
+              <div class="icon-section d-flex  ">
+                  <div class="fill-icon">
+                      <i class="bi bi-menu-button-fill"></i>
+                      AWS Certified 
+                  </div>
+                  <div class="clock-icon">
+                      <i class="bi bi-clock"></i>3 Month
+                  </div>
+              </div>
+              <div class="Text-Section mt-5">
+                  <p class="AWS-header">AWS Certified solutions Architect</p>
+                  <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+              </div>
+              <div class="down-section d-flex">
+                  <div class="user-image">
+                      <img src="../assets/image 12.png" class="img-fluid"/>
+                  </div>
+                  <div class="Useer-paided d-flex gap-4 pt-3">
+                      <p class="paides-text">$100</p>
+                      <p class="padies-Big">$80</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="recommended-course-card  justify-content-center align-items-center  p-4  ">
+            <div class="recommended-image ">
+                <img src="../assets/webDesign.jpeg" class="img-fluid mian-imag "/>
+            </div>
+            <div class="icon-section d-flex  ">
+                <div class="fill-icon">
+                    <i class="bi bi-menu-button-fill"></i>
+                    AWS Certified 
+                </div>
+                <div class="clock-icon">
+                    <i class="bi bi-clock"></i>3 Month
+                </div>
+            </div>
+            <div class="Text-Section mt-5">
+                <p class="AWS-header">AWS Certified solutions Architect</p>
+                <p class="AWS-pre">Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+            </div>
+            <div class="down-section d-flex">
+                <div class="user-image">
+                    <img src="../assets/image 12.png" class="img-fluid"/>
+                </div>
+                <div class="Useer-paided d-flex gap-4 pt-3">
+                    <p class="paides-text">$100</p>
+                    <p class="padies-Big">$80</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+      </div>
+    </section>
+    
+
+ <!-- footer -->
+
+ <footer
+ class="text-center text-lg-start align-content-center pt-5 p-0 m-0 mb-0"
+ style="background-color: #252641"
+>
+ <p
+   class="single text-center text-white"
+   style="
+     font-size: 20px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 100;
+   "
+ >
+   <strong>Sign Up for Our New Courses Updates.</strong>
+ </p>
+
+ <div class="container">
+   <section class="">
+     <form action="">
+       <div class="row d-flex justify-content-center">
+         <div class="col-auto"></div>
+
+         <div class="col-md-5 col-12" style="background-color: none">
+           <div class="form-outline mb-4">
+             <input
+               type="email"
+               placeholder="Email Address"
+               id="form5Example2"
+               class="form-control"
+             />
+           </div>
+         </div>
+
+         <div class="col-auto">
+           <button
+             type="submit"
+             class="btn mb-4 shadow-sm"
+             style="background-color: #49bbbd"
+           >
+             Subscribe
+           </button>
+         </div>
+       </div>
+     </form>
+   </section>
+ </div>
+
+ <div class="info text-center mb-3 text-decoration-none text-muted">
+   <a href="#">Careers |</a>
+   <a href="#">Privacy Policy |</a>
+   <a href="#">Teams & Conditions</a>
+ </div>
+
+ - Copyright --
+ <div
+   class="text-center p-3 text-muted"
+   style="background-color: rgba(122, 69, 69, 0.2)"
+ >
+   © 2023 Copyright:
+   <a class="text-decoration-none" href="#">AFRICA DIGITAL ACADEMY</a>
+ </div>
+ - Copyright      
+</footer>
+<!-- Footer End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
