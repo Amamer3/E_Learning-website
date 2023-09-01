@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- Bootstrap CSS v5.2.1 -->
     <link
@@ -20,113 +20,212 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css "
     />
     <link rel="stylesheet" href="./CourseDetail.css" />
-</head>
-<body>
-    
-
+  </head>
+  <body>
     <header>
-        <!--navbar here -->
-        <nav
-          class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary p-lg-0"
-        >
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="../assets/mainlogo.png" alt="img" />
-            </a>
-            <button
-              class="navbar-toggler shadow-none"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+      <!--navbar here -->
+      <nav
+        class="navbar navbar-expand-lg sticky-top shadow-sm bg-body-tertiary p-lg-0"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="../assets/mainlogo.png" alt="img" />
+          </a>
+          <button
+            class="navbar-toggler shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end gap-4"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li class="nav-item">
+                <a class="nav-link" href="../LandingPages/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Course/Course.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
+              </li>
+            </ul>
+            <a
+              class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
+              style="background-color: #f3705f"
+              href="../login/login.html"
+              >Register</a
             >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end gap-4"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav nav-underline">
-                <li class="nav-item">
-                  <a class="nav-link" href="../LandingPages/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../Course/Course.html">Courses</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Careers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
-                </li>
-              </ul>
-              <a
-                class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
-                style="background-color: #f3705f"
-                href="../login/login.html"
-                >Register</a
-              >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="header-section-image"></section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-5">
+            <div class="card  card-course" style="width: 48rem" >  <!--style="width: 48rem" -->
+              <div class="card-body">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card in-card pt-3 style="width: 16rem;">
+                    <div class="coures-textcontainer text-center">
+                      <p class="courestext-pre">4 out of 5</p>
+                      <div class="courestext-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <p class="topraiting-text mt-4">Top Raiting</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="row mt-4">
+                    <div class="col-md-6">
+                      <p class="progress-text">5 stars</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="progress-text">5 stars</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="progress-text">5 stars</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="progress-text">5 stars</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <p class="progress-text">5 stars</p>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 50%"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </header>
-
-
-
-
-      <section class="header-section-image">
-
-      </section>
-
-
-      <section>
-       <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-           
-
-            </div>
-            <div class="col-md-6">
-                <div class="card" style="width: 26rem;">
-                    <div class="image-card justify-content-center align-content-center text-center mt-3">
-                       <img src="../assets//Rectangle 77.png" class="card-img-top" alt="...">
-                    </div>
-                       <div class="card-body">
-                  <div class="d-flex justify-content-between">
-                    <p class="number-headre">$49.65</p>
-                    <p class="number-text "> $99.99</p>
-                    <p class="othernumber-text">50% Off</p>
-                  </div>
-                  <p class="time-text text-center">11 hour left at this price</p>
+          <div class="col-md-6">
+            <div class="card    card-box" style="width: 26rem">
+              <div
+                class="image-card justify-content-center align-content-center text-center mt-3"
+              >
+                <img
+                  src="../assets//Rectangle 77.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <p class="number-headre">$49.65</p>
+                  <p class="number-text">$99.99</p>
+                  <p class="othernumber-text">50% Off</p>
+                </div>
+                <p class="time-text text-center">11 hour left at this price</p>
+                <a
+                  href="../LandingPages/checkout.html"
+                  class="text-decoration-none"
+                >
                   <div class="d-grid gap-2 mx-auto">
-                   <a href="#"> <button class="btn btn-info" type="button">Button</button></a>
+                    <button class="btn buy-btn" type="button">Buy Now</button>
                   </div>
-                        
-                       </div>
-                     </div>
+                </a>
+                <hr class="fist-line" />
+                <div class="CourseIncluded-container">
+                  <h6 class="course-text"><br />This Course included</h6>
+                  <div class="course-icon">
+                    <div class="d-flex icon-home">
+                      <i class="bi bi-coin icon-image"></i>
+                      <p class="icon-text">Money Back Guarantee</p>
+                    </div>
+                    <div class="d-flex icon-home">
+                      <i class="bi bi-camera-fill icon-image"></i>
+                      <p class="icon-text">Access on all devices</p>
+                    </div>
+                    <div class="d-flex icon-home">
+                      <i class="bi bi-file-earmark-text icon-image"></i>
+                      <p class="icon-text">Certification of completion</p>
+                    </div>
+                    <div class="d-flex icon-home">
+                      <i class="bi bi-bar-chart-line-fill icon-image"></i>
+                      <p class="icon-text">32 Moduls</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="training-section">
+                    <p class="train-headr">Training 5 or more people</p>
+                    <p class="train-taxt">
+                      Class, launched less than a year ago by Blackboard
+                      co-founder Michael Chasen, integrates exclusively...
+                    </p>
+                  </div>
+                  <hr />
+                  <div class="share-courses">
+                    <p class="share-text">Share this course</p>
+                    <div class="share-icons justify-content-between d-flex">
+                      <img src="../assets/twitter.png" class="img-fluid" />
+                      <img
+                        src="../assets/Group 453 (1).png"
+                        class="img-fluid"
+                      />
+                      <img
+                        src="../assets/Group 454 (1).png"
+                        class="img-fluid"
+                      />
+                      <img
+                        src="../assets/Group 455 (1).png"
+                        class="img-fluid"
+                      />
+                      <img src="../assets/Group 456.png" class="img-fluid" />
+                      <img src="../assets/Group 457.png" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-       </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -139,5 +238,5 @@
       integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>

@@ -8,10 +8,10 @@
   flex-shrink: 0;
 }
 
-.card {
+.card-box {
   position: relative;
   left: 30%;
-  bottom: 50%;
+  bottom: 25%;
   border-radius: 20px;
   border: 30px solid #fff;
   background: #fff;
@@ -61,7 +61,126 @@ letter-spacing: 0.4px;
 .buy-btn{
     border-radius: 12px;
     background: #49BBBD !important;
-    width: 443px !important;
-height: 63px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+.buy-btn:hover{
+    border: none;
+    color: #FFF;
+font-family: Poppins;
+text-decoration: none;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.course-text{
+    color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.icon-image{
+    color: #49BBBD;
+    font-family: Font Awesome 5 Free;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.icon-home {
+    gap: 5%;
+}
+.icon-text{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.train-headr{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.train-taxt{
+    color: #696984;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 25.2px */
+letter-spacing: 0.28px;
+}
+
+.card-course{
+    border: none;
+height: 264px;
 flex-shrink: 0;
+border-radius: 20px;
+background: rgba(157, 204, 255, 0.30);
+}
+.in-card{
+    border: none;
+    width: 257px;
+height: 199px;
+border-radius: 20px;
+flex-shrink: 0;
+fill: #FFF;
+}
+.courestext-pre{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+.courestext-icon{
+    color: #FDB022;
+font-family: Poppins;
+font-size: 27px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
+.topraiting-text{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+.progress{
+    margin-right: 50%;
+    width: 150%;
+    height: 8px;
+}
+.progress-text{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20%;
+letter-spacing: 0.4px;
 }
