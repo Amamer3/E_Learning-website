@@ -5,15 +5,66 @@
 } */
 
 .text-hold {
-  color: #fff;
+  color: #eae0e0;
   font-family: "Poppins", sans-serif;
   font-size: 54px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
+  margin-bottom: 20%;
 }
-/* .cla-image{
+
+.btn1{
+  background-color: #f44336;
+}
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
+.text-ada{
+  color: #eae0e0;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 20%;
+  /* margin-left: 36%; */
+  padding-left: 40%;
+  position: relative;
+  left: 22%;
+}
+.text-manage{
+  color: #eae0e0;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 10%;
+  padding-left: 20%;
+  position: relative;
+  left: 20%;
+}
+.Carousel-heigth{
   height: 20% !important;
-} */
+}
+
+.swiper {
+  width: 100%;
+  height: 70%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set background image individually for each slide */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 .p-text {
   color: #fff;
   font-family: "Poppins", sans-serif;
@@ -198,7 +249,13 @@
   text-align: center;
   font-size: 36px;
 }
-
+.file-text{
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+}
 .calendar_icon {
   margin-left: 34%;
   position: relative;

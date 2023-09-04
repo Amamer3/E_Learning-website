@@ -17,6 +17,13 @@
   background: #fff;
   border-radius: 20px;
 }
+.btn1{
+  background-color: #f44336;
+}
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
 .card-img-top {
   width: 332px;
 }
@@ -129,7 +136,7 @@ letter-spacing: 0.28px;
 
 .card-course{
     border: none;
-height: 264px;
+height: 564px;
 flex-shrink: 0;
 border-radius: 20px;
 background: rgba(157, 204, 255, 0.30);
@@ -171,11 +178,14 @@ line-height: normal;
 letter-spacing: 0.4px;
 }
 .progress{
-    margin-right: 50%;
+    margin: 5%;
+    position: relative;
+    right: 60%;
     width: 150%;
     height: 8px;
 }
 .progress-text{
+    margin: 5%;
     color: rgba(0, 0, 0, 0.50);
 font-family: Poppins;
 font-size: 20px;
@@ -184,3 +194,43 @@ font-weight: 400;
 line-height: 20%;
 letter-spacing: 0.4px;
 }
+
+
+.star-name{
+    color:#FDB022;
+    font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+bottom: 20%;
+}
+.lina-className{
+    color: #000;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.36px;
+}
+ .time-lina{
+    margin-left: 70%;
+    color: #696984;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 180%; /* 25.2px */
+letter-spacing: 0.28px;
+ }
+ .line-text{
+    color: #696984;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: 180%; /* 36px */
+letter-spacing: 0.4px;
+margin-left: 10%;
+ }
