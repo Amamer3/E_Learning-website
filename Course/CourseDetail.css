@@ -234,3 +234,18 @@ line-height: 180%; /* 36px */
 letter-spacing: 0.4px;
 margin-left: 10%;
  }
+
+
+ .ph-text{
+    color: #2F327D;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 300;
+line-height: 160%; /* 57.6px */
+ }
+
+ .span-text{
+    color: #f44336;
+ }
+ .ada
