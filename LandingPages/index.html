@@ -6,13 +6,12 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"crossorigin="anonymous"/>
-
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link
       rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"/>
     <link rel="stylesheet" href="Blog.css" />
 
-    <!-- Swiper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+ 
     <link rel="stylesheet" href="index.css" />
     <title>landing-Page</title>
   </head>
@@ -51,12 +50,7 @@
                 <a class="nav-link" href="../BlogPage/Blog.html">Blog</a>
               </li>
             </ul>
-            <a
-              class="text-decoration-none rounded-4 text-dark px-3 py-1 align-content-end"
-              style="background-color: #f3705f"
-              href="../login/login.html"
-              >Register</a
-            >
+            <a href="../login/login.html" class="btn text-decoration-none rounded-4 text-white px-3 py-1 align-content-end fw-medium ">Register</a>
           </div>
         </div>
       </nav>
@@ -100,34 +94,53 @@
       </div>
     </section> -->
 
-   <section class="header-top">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner justify-content-center  align-items-center text-center">
-        <div class="carousel-item active">
-          <img src="/assets/cla-image/cal1.jpg" class="cla-image" alt="..."    style="width: 70%; height: 10%">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/assets/cla-image/cal2.jpg" class="cla-image" alt="..." style="width: 50%;; height: 20%;">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/assets/cla-image/cal4.jpg" class="" alt="..." style="width: 700px; height: 400px;">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+
+
+
+<sectio>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active " style="height: 600px;">
+        <img src="../assets/cla-image/cal1.jpg" class="d-block w-100 " alt="../assets/cla-images/cal1.jpg">
+        <div class="carousel-caption mb-5 ">
+          <h5 class="text-hold">Studying <span class="span-text">Online</span> is  <br>  now much
+            easier</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
-    
+      <div class="carousel-item  "  style="height: 600px;">
+        <img src="../assets/cla-image/cal2.jpg" class="d-block w-100 "  alt="../assets/Group 454.png">
+        <div class="carousel-caption mb-5 ">
+          <h5 class="text-ada"> <span class="span-text">ADA </span> is an interesting platform that will teach you in more an
+            interactive way</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item " style="height: 600px;">
+        <img src="../assets/cla-image/cal3.jpg" class="d-block w-100 " alt="../assets/cal2.jpg">
+        <div class="carousel-caption  mb-5 me-5">
+          <h5 class="text-manage">To manage a successful school or workplace, you'll need a comprehensive set of web software tools, and <span class="span-text">ADA</span> has them all.</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
     </div>
-   </section>
+  </div>
+</section>
+     <!-- Swiper -->
+  <!-- <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+  </div> -->
+  
     
     <!-- -----------------------------Section Ends------------------------------------------>
 
@@ -168,6 +181,7 @@
               <h3 class="num-text">16</h3>
               <p>Years of experience</p>
             </div>
+       
           </div>
         </div>
       </div>
@@ -195,7 +209,7 @@
         <div class="row Crad-cloud mt-5">
           <div class="col-lg-4">
             <div class="file_icon">
-              <i class="bi bi-filetype-doc"></i>
+              <i class="bi bi-filetype-doc   file-text"></i>
             </div>
             <div class="online-card">
               <div class="text-online">
@@ -292,6 +306,7 @@
         <div class="row">
           <div class="col-lg-6 mt-5">
             <div class="elips_circle">
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="73"
@@ -737,6 +752,28 @@
     </footer>
     <!-- Footer End -->
     <!-- Bootstrap JavaScript Libraries -->
+      <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -749,10 +786,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- <script>
-      fetch('https://handyhelp.onrender.com/business').then(data=>{
-        console.log(data)
-      })
-    </script> -->
+   
   </body>
 </html>
