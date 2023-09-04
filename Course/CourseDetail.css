@@ -17,10 +17,10 @@
   background: #fff;
   border-radius: 20px;
 }
-.btn{
+.btn1{
   background-color: #f44336;
 }
-.btn:hover{
+.btn1:hover{
   background-color: black;
   color: white;
 }
