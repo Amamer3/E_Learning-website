@@ -15,9 +15,9 @@
   flex-shrink: 0;
   border-radius: 20px;
   background: #fff;
-  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px
-    rgba(47, 50, 125, 0.1);
+  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.1);
 }
+
 /* @media only screen and (min-width: 768px)  {
   .Choice-card-category{
     width: 249px;
@@ -39,6 +39,7 @@
   line-height: normal;
   letter-spacing: 0.6px;
 }
+
 .course-pre {
   color: #696984;
   text-align: center;
@@ -54,6 +55,7 @@
   background-color: #9dccff47;
   margin-top: 12%;
 }
+
 .Recomm-headra {
   color: #000 !important;
   font-family: "Poppins", sans-serif;
@@ -66,8 +68,7 @@
 .recommended-course-card {
   border-radius: 20px;
   background: #fff;
-  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px
-    rgba(47, 50, 125, 0.1);
+  box-shadow: 0px 18.829999923706055px 47.08000183105469px 0px rgba(47, 50, 125, 0.1);
   width: 374px;
   height: 537px;
 }
@@ -79,10 +80,12 @@
     width: 384px;
     height: 527px;
   }
+
   .recommended-course-card:not(:first-child) {
     display: none;
   }
-  .Choice-card-category{
+
+  .Choice-card-category {
     background-color: red;
   }
 }
@@ -91,6 +94,7 @@
   border-radius: 20px;
   width: 334.004px;
 }
+
 .clock-icon {
   margin-left: 38%;
   color: #696984;
@@ -101,15 +105,18 @@
   line-height: 180%;
   letter-spacing: 0.28px;
 }
+
 .fill-icon {
   color: #696984;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 180%; /* 25.2px */
+  line-height: 180%;
+  /* 25.2px */
   letter-spacing: 0.28px;
 }
+
 .AWS-header {
   color: #252641;
   font-family: "Poppins", sans-serif;
@@ -118,15 +125,18 @@
   font-weight: 300;
   line-height: normal;
 }
+
 .AWS-pre {
   color: #696984;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 180%; /* 32.4px */
+  line-height: 180%;
+  /* 32.4px */
   letter-spacing: 0.36px;
 }
+
 .paides-text {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Poppins", sans-serif;
@@ -137,6 +147,7 @@
   letter-spacing: 0.36px;
   text-decoration: line-through;
 }
+
 .padies-Big {
   color: #49bbbd;
   font-family: "Poppins", sans-serif;
@@ -157,6 +168,7 @@
   height: 30px;
   top: 50%;
 }
+
 .carousel-control-next {
   border-radius: 50px;
   width: 30px;
@@ -178,6 +190,7 @@
   font-style: normal;
   font-weight: 700;
 }
+
 .text-seeAll {
   color: #49bbbd;
   font-family: Poppins;
@@ -186,6 +199,7 @@
   font-weight: 700;
   line-height: normal;
 }
+
 .choice-text {
   color: #000;
   font-family: Poppins;
@@ -195,36 +209,41 @@
   line-height: normal;
   letter-spacing: 0.6px;
 }
+
 .start-conainer {
   border-radius: 37px;
   background: #252641;
   width: 1682px;
   height: 334px;
 }
-.start-heard{
+
+.start-heard {
   color: #FFF;
-font-family: Poppins;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.start-pre{
+
+.start-pre {
   color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 180%; /* 43.2px */
-letter-spacing: 0.48px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  /* 43.2px */
+  letter-spacing: 0.48px;
 }
-.Start-btn{
+
+.Start-btn {
   color: #fff;
   width: 236px;
-height: 63px;
-flex-shrink: 0;
+  height: 63px;
+  flex-shrink: 0;
   border: none;
   border-radius: 12px;
-background: #49BBBD;
+  background: #49BBBD;
 }
