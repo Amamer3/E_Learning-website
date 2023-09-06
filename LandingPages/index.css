@@ -3,51 +3,40 @@
 /* .header-top {
   background-color: #49bbbd;
 } */
-.btn1{
-  background-color: #f44336;
-}
 
-.btn1:hover{
-  background-color: black;
-  color: white;
-}
 .text-hold {
   color: #eae0e0;
   font-family: "Poppins", sans-serif;
   font-size: 54px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  margin-bottom: 20%;
 }
 
-
+.btn1{
+  background-color: #f44336;
+}
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
 .text-ada{
-  color: #eae0e0;
+  color: #020202;
   font-family: "Poppins", sans-serif;
   font-size: 44px;
   font-style: normal;
-  font-weight: 400;
-
+  font-weight: 600;
+position: relative;
+right: 100%;
 }
-
-#overlay{
-  background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,0.5550595238095238) 0%, rgba(255,255,255,0) 100%);
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height:100%;
-}
-
 .text-manage{
   color: #eae0e0;
   font-family: "Poppins", sans-serif;
   font-size: 44px;
   font-style: normal;
-  font-weight: 600; 
+  font-weight: 600;
 }
-.Carousel-heigth{
-  height: 20% !important;
-}
+
 
 
 
@@ -60,7 +49,7 @@ background: linear-gradient(0deg, rgba(2,0,36,0.5550595238095238) 0%, rgba(255,2
 }
 
 .span-text {
-  color: #f48c06;
+  
   font-family: "Poppins", sans-serif;
   font-size: 54px;
   font-style: normal;

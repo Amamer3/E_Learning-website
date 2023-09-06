@@ -41,7 +41,7 @@
           >
             <ul class="navbar-nav nav-underline">
               <li class="nav-item">
-                <a class="nav-link active" href="../LandingPages/index.html">Home</a>
+                <a class="nav-link active" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../Course/Course.html">Courses</a>
@@ -56,71 +56,38 @@
       </nav>
     </header>
 
-    <!-- <section class="header-top">
-      <div class="top-things">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="text-box">
-                <h4 class="text-hold">
-                  Studying <span class="span-text">Online</span> is now much
-                  easier
-                </h4>
-                <p class="p-text">
-                  TOTC is an interesting platform that will teach you in more an
-                  interactive way
-                </p>
 
-                <div class="d-flex gap-5">
-                  <div>
-                    <button type="button" class="btn-lg rounded-pill join-btn">
-                      Join for free
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="image-container">
-                <img
-                  src="../assets/Group 454.png"
-                  class="img-fluid teenage-img"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    <!-- ----------------------------- Carousel Section ------------------------------------------>
 
 
-
-
-<section>
+<section class="position-relative">
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active " style="height: 600px;">
-        <img src="../assets/cla-image/cal1.jpg" class="d-block w-100 " alt="../assets/cla-images/cal1.jpg">
-        <div class="carousel-caption mb-5 ">
-          <h5 class="text-hold">Studying <span class="span-text">Online</span> is  <br>  now much
+        <div id="overlay">overlay</div>
+
+        <img src="./assets/cal1.jpg" class="d-block w-100  cla-image" alt="../assets/cla-images/cal1.jpg">
+        <div class="carousel-caption justify-content-center align-content-center text-center ">
+          <h5 class="text-hold ">Studying <span class="span-text">Online</span> is  <br>  now much
             easier</h5>
       
         </div>
       </div>
       <div class="carousel-item  "  style="height: 600px;">
-        <img src="../assets/cla-image/cal2.jpg" class="d-block w-100 "  alt="../assets/Group 454.png">
-        <div class="carousel-caption mb-5 ">
-          <h5 class="text-ada"> <span class="span-text">A.D.A </span> is an interesting platform that will teach you in more an
+        <div id="overlay">overlay</div>
+
+        <img src="./assets/cal2.png" class="d-block w-100 cla-image "  alt="../assets/Group 454.png">
+        <div class="carousel-caption justify-content-center align-content-center text-center">
+          <h5 class="text-hold "> <span class="span-text">A.D.A </span> is an interesting platform that will teach you in more an
             interactive way</h5>
    
         </div>
       </div>
       <div class="carousel-item " style="height: 600px;">
-        <img src="../assets/cla-image/cal3.jpg" class="d-block w-100 " alt="../assets/cal2.jpg">
-        <div class="carousel-caption  mb-5 me-5">
-          <h5 class="text-manage">To manage a successful school or workplace, you'll need a comprehensive set of web software tools, and <span class="span-text">A.D.A</span> has them all.</h5>
-   
+        <div id="overlay">overlay</div>
+        <img src="./assets//cal3.jpg" class="d-block w-100 cla-image " alt="../assets/cal2.jpg">
+        <div class="carousel-caption  justify-content-center align-content-center text-center">
+          <h5 class="text-hold  ">To manage a successful school or workplace, you'll need a comprehensive set of web software tools, and <span class="span-text">A.D.A</span> has them all.</h5>
         </div>
       </div>
     </div>
@@ -129,7 +96,7 @@
 
   
     
-    <!-- -----------------------------Section Ends------------------------------------------>
+    <!-- -----------------------------  Carousel Section Ends------------------------------------------>
 
     <!-- Our Success  -->
 
@@ -149,26 +116,25 @@
           </div>
           <div class="row number-frame mt-5">
             <div class="col-lg-2 text-center">
-              <h3 class="num-text">15K+</h3>
+              <h3 data-target="15000K" class="num-text">0K+</h3>
               <p>Students</p>
             </div>
             <div class="col-lg-2 text-center">
-              <h3 class="num-text">75%</h3>
+              <h3 data-target="7300" class="num-text">0%</h3>
               <p>Total Success</p>
             </div>
             <div class="col-lg-2 text-center">
-              <h3 class="num-text">35</h3>
+              <h3 data-target="300" class="num-text">0</h3>
               <p>Main questions</p>
             </div>
             <div class="col-lg-2 text-center">
-              <h2 class="num-text">26</h2>
+              <h2 data-target="288" class="num-text">0</h2>
               <p>chief experts</p>
             </div>
             <div class="col-lg-3 text-center">
-              <h3 class="num-text">16</h3>
+              <h3 data-target="200" class="num-text">0</h3>
               <p>Years of experience</p>
             </div>
-       
           </div>
         </div>
       </div>
@@ -244,6 +210,8 @@
         </div>
       </div>
     </section>
+ <!-- cloud  Software End -->
+
     <section class="totc_con">
       <div class="container">
         <div class="row">
@@ -740,27 +708,31 @@
     <!-- Footer End -->
     <!-- Bootstrap JavaScript Libraries -->
       <!-- Swiper JS -->
+      <script>
+        const counters = document.querySelectorAll(".num-text");
+        const speed = 200;
+      
+        counters.forEach((counter) => {
+          const updateCount = () => {
+            const target = parseInt(counter.getAttribute("data-target"));
+            const count = parseInt(counter.innerText);
+            const increment = Math.trunc(target / speed);
+            console.log(increment);
+      
+            if (count < target) {
+              counter.innerText = count + increment;
+              setTimeout(updateCount, 1);
+            } else {
+              counter.innerText = target;
+            }
+          };
+          updateCount();
+        });
+      </script>
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-  </script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
