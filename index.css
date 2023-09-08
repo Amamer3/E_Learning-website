@@ -186,7 +186,7 @@ background: linear-gradient(0deg, rgba(2,0,36,0.5550595238095238) 0%, rgba(255,2
 }
 
 .span-cloud {
-  color: #00cbb8;
+  color: #f48c06;
 }
 
 .cloudCotainer {
@@ -297,7 +297,7 @@ background: linear-gradient(0deg, rgba(2,0,36,0.5550595238095238) 0%, rgba(255,2
 }
 
 .totc-span {
-  color: #00cbb8;
+  color: #f48c06;
 }
 
 .toct-text {
@@ -312,27 +312,25 @@ background: linear-gradient(0deg, rgba(2,0,36,0.5550595238095238) 0%, rgba(255,2
   letter-spacing: 0.48px;
 }
 
-/* .instructors-con {
+.instructors-con{
   background-image: url("./assets/rectangle-23.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 600px;
-  height: 400px;
-  flex-shrink: 0;
+  width: 500px;
+  height: 300px;
   border-radius: 20px;
 }
 
 .online_instrutors {
-background-color: #f44336;
+  background-image: url("./assets/rectangle-23.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 600px;
-  height: 400px;
-  flex-shrink: 0;
+  width: 500px;
+  height: 300px;
   border-radius: 20px;
-} */
+}
 
 .int-thing {
   text-align: center;
@@ -394,7 +392,7 @@ background-color: #f44336;
   line-height: 160%; /* 57.6px */
 }
 .YouCan_text {
-  color: #00cbb8;
+  color: #f48c06;
 }
 .physical_pre {
   color: #696984;
@@ -418,7 +416,7 @@ background-color: #f44336;
   line-height: 180%; /* 64.8px */
 }
 .span-features {
-  color: #00cbb8;
+  color: #f48c06;
 }
 
 .featur-text {
@@ -439,7 +437,7 @@ background-color: #f44336;
   line-height: 160%; /* 64px */
 }
 .meeting-span {
-  color: #00cbb8;
+  color: #f48c06;
 }
 
 .meeting-pra {
@@ -458,7 +456,7 @@ background-color: #f44336;
   margin-top: 10%;
 }
 .teachs-span {
-  color: #00cbb8;
+  color: #f48c06;
 }
 .teachs-header {
   color: #2f327d;
@@ -489,7 +487,7 @@ background-color: #f44336;
   line-height: 160%; /* 64px */
 }
 .assessments-span {
-  color: #00cbb8;
+  color: #f48c06;
 }
 .assessments-pra {
   color: #696984;
@@ -515,7 +513,7 @@ background-color: #f44336;
   line-height: 160%; /* 64px */
 }
 .classManagement-span {
-  color: #00cbb8;
+  color: #f48c06;
 }
 .classManagement-pra {
   color: #696984;
@@ -542,7 +540,7 @@ background-color: #f44336;
   line-height: 160%; /* 64px */
 }
 .span_disussio {
-  color: #00cbb8;
+  color: #f48c06;
 }
 .Discussions-teaxt {
   color: #696984;
